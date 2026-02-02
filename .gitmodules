@@ -10,3 +10,6 @@
 [submodule "birthday-greeting"]
 	path = birthday-greeting
 	url = https://github.com/sarfaraz77/birthday-greeting.git
+[submodule "tip-calculator"]
+	path = tip-calculator
+	url = https://github.com/sarfaraz77/tip-calculator.git
