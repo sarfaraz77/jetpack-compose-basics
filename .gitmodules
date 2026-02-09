@@ -1,0 +1,15 @@
+[submodule "Tutorial-App"]
+	path = Tutorial-App
+	url = https://github.com/sarfaraz77/Tutorial-App.git
+[submodule "quadrant-layout"]
+	path = quadrant-layout
+	url = https://github.com/sarfaraz77/quadrant-layout.git
+[submodule "Tasks-App-Page"]
+	path = Tasks-App-Page
+	url = https://github.com/sarfaraz77/Tasks-App-Page.git
+[submodule "birthday-greeting"]
+	path = birthday-greeting
+	url = https://github.com/sarfaraz77/birthday-greeting.git
+[submodule "tip-calculator"]
+	path = tip-calculator
+	url = https://github.com/sarfaraz77/tip-calculator.git
