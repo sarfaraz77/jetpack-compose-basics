@@ -42,6 +42,7 @@ import com.example.tipcalculator.ui.theme.TipCalculatorTheme
 import java.text.NumberFormat
 import androidx.compose.material3.Icon
 import androidx.compose.ui.res.painterResource
+import org.jetbrains.annotations.VisibleForTesting
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -124,7 +125,8 @@ fun TipCalculatorLayout() {
     }
 }
 
-private fun calculateTip(
+@VisibleForTesting
+internal fun calculateTip(
     amount: Double,
     tipPercent: Double = 15.0,
     roundUp: Boolean
